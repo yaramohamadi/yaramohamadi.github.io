@@ -4,7 +4,7 @@ collection: teaching
 type: "Summerschool"
 permalink: /teaching/2022-neuromatch
 venue: "Online"
-date: 2022-07
+date: 2022-07-01
 location: "USA"
 ---
 
