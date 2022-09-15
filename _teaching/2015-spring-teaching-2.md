@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 2"
+title: "Mentor at HooshBaaz Data Analytics Bootcamp"
 collection: teaching
-type: "Workshop"
+type: "Summerschool"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "University of Tehran, School of Electrical \& Computer Engineering"
+date: 2022-07 till 2022-08
+location: "Tehran, Iran"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Group collaboration with 7 other mentors for educating 80 students during 14 data science workshops. ([LinkedIn](https://www.linkedin.com/company/ut-openai-summerschool/), [Github](https://github.com/HooshBaaz/2022_DataAnalytics_SummerSchool))
