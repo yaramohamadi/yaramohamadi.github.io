@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023-post-regularization
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2023
-venue: 'aliizadi.github.io (In preperation, Target: JMLR)'
+venue: 'yaramohamadi.github.io (In preperation, Target: JMLR)'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Bahram, YM. (2023). &quot;Post-Regularization: A survey on generalization after overfitting&quot; <i>yaramohamadi.github.io</i>'
 ---
