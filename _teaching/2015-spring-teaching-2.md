@@ -2,7 +2,7 @@
 title: "Mentor at HooshBaaz Data Analytics Bootcamp"
 collection: teaching
 type: "Summerschool"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2022-hooshbaaz
 venue: "University of Tehran, School of Electrical \& Computer Engineering"
 date: 2022-07 till 2022-08
 location: "Tehran, Iran"
