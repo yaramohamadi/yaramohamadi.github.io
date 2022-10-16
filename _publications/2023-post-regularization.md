@@ -1,5 +1,5 @@
 ---
-title: "Post-Regularization: A survey on generalization after overfitting"
+title: "Overfitting is not a dead-end: A survey and outlook on post-training regularization"
 collection: publications
 permalink: /publication/2023-post-regularization
 excerpt: 'Machine learning (ML) relies heavily on regularization, as it allows better generalization to unknown data, even with imperfect optimization procedures and datasets. There are, however, major problems with regularization that have surprisingly received little attention so far. Regularization methods traditionally \textbf{avoid} overfitting. But when overfitting happens, they usually fail to fight it and cannot bring the machine learning model out of its adverse situation. As a result, the stage of overfitting is taught of as a dead-end in the ML community. 
