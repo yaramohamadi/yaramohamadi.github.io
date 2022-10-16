@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download my full CV [here](../files/CV_yara_m_bahram.pdf). (Last update: 17 Sept 2022)
+Download my full CV [here](../files/CV_yara_m_bahram.pdf). (Last update: 11 Oct 2022)
 
 <!---
 Education
