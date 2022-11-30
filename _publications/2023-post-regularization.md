@@ -11,5 +11,5 @@ There already are implicit and explicit traces of this idea, which we call _Post
 date: 2023-01-01
 venue: 'yaramohamadi.github.io (In preperation)'
 paperurl: ''
-citation: 'YM Bahram, MA Sadeghi (2023). &quot;Post-Regularization: A survey on generalization after overfitting&quot; <i>yaramohamadi.github.io</i>'
+citation: 'YM Bahram, MA Sadeghi (2023). &quot;Overfitting is not a dead-end: A survey and outlook on post-training regularization&quot; <i>yaramohamadi.github.io</i>'
 ---
