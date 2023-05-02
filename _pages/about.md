@@ -14,3 +14,5 @@ I am currently a Masters student studying Artificial Intelligence at the [Univer
 
 Download my full CV [here](../files/CV_yara_m_bahram.pdf). (Last update: 11 Oct 2022)
 
+
+<a href="https://www.dudeism.com" target="_blank"><img alt="I am an Ordained Dudeist Priest" src="https://www.dudeism.com/Images/Im-an-ordained-dudeist-priest.gif" border="0" title="I am an Ordained Dudeist Priest" /></a>
