@@ -36,7 +36,7 @@ the coming years. Thus, there will be an increasing need for experts in the indu
 
 Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 8 November 2023)
 
-Find some of my [DL/ML](https://github.com/yaramohamadi/Deep_Learning_Projects) and [BigData/DataScience](https://github.com/yaramohamadi/BigData_Projects) projects on my [Github](https://github.com/yaramohamadi). Learn more about my teaching experiences [here](https://yaramohamadi.github.io/teaching/) and see some of my research abstracts [here](https://yaramohamadi.github.io/manuscripts/).
+Find some of my [DL/ML](https://github.com/yaramohamadi/Deep_Learning_Projects) and [BigData/DataScience](https://github.com/yaramohamadi/BigData_Projects) projects on my [Github](https://github.com/yaramohamadi). Learn more about my teaching experiences [here](https://yaramohamadi.github.io/teaching/) and see some of my research abstracts [here](https://yaramohamadi.github.io/publications/).
 
 --------------
 
