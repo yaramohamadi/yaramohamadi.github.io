@@ -9,4 +9,7 @@ location: "USA"
 ---
 
 I was selected as TA for full-time supervision on the learning of 16 students from
-different countries, and leading 2 research group projects during 3 weeks. The topics covered a wide and comprehensive range of Deep Learning subjects ([Curriculum](https://deeplearning.neuromatch.io/tutorials/intro.html). See ![My Certification](../files/neuromatch.png) and our ![Group Photo](../files/ceplinai.png).
+different countries, and leading 2 research group projects during 3 weeks. The topics covered a wide and comprehensive range of Deep Learning subjects ([Curriculum](https://deeplearning.neuromatch.io/tutorials/intro.html).
+
+<img src="../files/neuromatch.png" width="200">
+<img src="../files/ceplinai.png" width="200">
