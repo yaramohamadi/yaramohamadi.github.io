@@ -2,7 +2,7 @@
 title: "Personal Teaching Experience"
 collection: teaching
 type: "personal"
-permalink: /teaching/2022-ml-course
+permalink: /teaching/2021-ml-course
 venue: "Github and Youtube"
 date: 2021-10-01
 location: "Iran"
