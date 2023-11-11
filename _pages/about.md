@@ -43,7 +43,8 @@ Find some of my [DL/ML](https://github.com/yaramohamadi/Deep_Learning_Projects) 
 
 <a href="https://www.dudeism.com" target="_blank"><img alt="I am an Ordained Dudeist Priest" src="https://www.dudeism.com/Images/Im-an-ordained-dudeist-priest.gif" border="0" title="I am an Ordained Dudeist Priest" /></a>
 
-<h3 align="left">Let's connect through Music:</h3>
+Connect with me on Spotify:
+
 <p align="left">
   <a href="https://open.spotify.com/user/yara.mohamadi" target="blank"><img align="center" 
   src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/spotify.svg" alt="https://open.spotify.com/user/yara.mohamadi" height="30" width="40" /></a>
