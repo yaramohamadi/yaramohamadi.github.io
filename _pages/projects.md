@@ -5,6 +5,8 @@ permalink: /projects/
 author_profile: true
 ---
 
+{% include base_path %}
+
 <style>body {text-align: justify}</style>
 
 This page contains some of the **DL/ML** and **BigData/DataScience** projects that I have done for university courses or due to personal interest. 
