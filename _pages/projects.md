@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: archive
 title: "Projects"
-excerpt: "Projects"
+permalink: /projects/
 author_profile: true
-redirect_from: 
-  - /projects/
-  - /projects.html
 ---
 
 <style>body {text-align: justify}</style>
