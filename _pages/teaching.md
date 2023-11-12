@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+Yo yo
+this is the teaching page
+
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
