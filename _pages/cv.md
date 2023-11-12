@@ -12,8 +12,6 @@ redirect_from:
 
 Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 8 November 2023)
 
-Find some of my [DL/ML](https://github.com/yaramohamadi/Deep_Learning_Projects) and [BigData/DataScience](https://github.com/yaramohamadi/BigData_Projects) projects on my [Github](https://github.com/yaramohamadi). 
-
 <!---
 Education
 ======
