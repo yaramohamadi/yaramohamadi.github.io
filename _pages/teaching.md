@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-
+<style>body {text-align: justify}</style>
 
 ### Teaching Assistant for Graduate University Courses
 
@@ -26,7 +26,7 @@ Online, 2022-07
 I was selected as TA for full-time supervision on the learning of 16 students from
 different countries, and leading 2 research group projects during 3 weeks. The topics covered a wide and comprehensive range of Deep Learning subjects ([Curriculum](https://deeplearning.neuromatch.io/tutorials/intro.html)).
 
-<img src="../files/neuromatch.png" width="280"><img src="../files/ceplinai.png" width="280">
+<img src="../files/neuromatch.png" width="400"><img src="../files/ceplinai.png" width="400">
 
 
 
@@ -36,7 +36,7 @@ University of Tehran, School of Electrical and Computer Engineering, 2022-07
 
 Group collaboration with 7 other mentors for educating 80 students during 14 data science workshops. ([LinkedIn](https://www.linkedin.com/company/ut-openai-summerschool/), [Github](https://github.com/HooshBaaz/2022_DataAnalytics_SummerSchool))
 
-<img src="../files/hooshbaaz.png" width="560"/>
+<img src="../files/hooshbaaz.png" width="800"/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qPlnH-qpHmo?si=B4_4AyphB02F7Za4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
