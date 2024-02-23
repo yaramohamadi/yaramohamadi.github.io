@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 8 November 2023)
+Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 22 February 2024)
 
 <!---
 Education
