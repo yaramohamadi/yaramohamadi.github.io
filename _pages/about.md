@@ -12,7 +12,7 @@ redirect_from:
 
 ### Bio
 
-I am currently a first year PhD student at École de technologie supérieure, Montréal. There, I working on Deep Learning around Vision applications with Dr. [Éric Granger](https://www.etsmtl.ca/en/research/professors/egranger) and Dr. [Mohammadhadi Shateri](https://www.etsmtl.ca/en/research/professors/mshateri). My focus, more specifically is am working on Generative Domain Adaptation in Few-Shot and Multimodal settings.
+I am currently a first year PhD student at École de technologie supérieure (ÉTS), Montréal. There, I working on Deep Learning around Vision applications with Dr. [Éric Granger](https://www.etsmtl.ca/en/research/professors/egranger) and Dr. [Mohammadhadi Shateri](https://www.etsmtl.ca/en/research/professors/mshateri). My focus, more specifically is am working on Generative Domain Adaptation in Few-Shot and Multimodal settings.
 
 Previously, I obtained a Masters degree in Artificial Intelligence (AI) at the [University of Tehran](https://ut.ac.ir/en) in Iran. There I worked as a research assistant in the Machine Learning (ML) Lab under the supervision of [Dr. Amin Sadeghi](https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate) on foundational Deep Learning (DL) and explainability in vision applications. My Master's thesis was titled "When and where to perform regularization in the training of deep learning models?". I obtained my Bachelor's degree from the [Isfahan University of Technology](http://english.iut.ac.ir/) where I studied Computer Engineering. 
 
