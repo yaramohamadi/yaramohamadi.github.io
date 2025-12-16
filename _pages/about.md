@@ -8,11 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-.masthead { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: white; }
-.initial-content { padding-top: 80px; }  /* same value as scroll-padding-top */
-html { scroll-padding-top: 80px; }
-
-
 <style>
   /* Keep the header visible while scrolling */
   .masthead { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: white; }
@@ -41,26 +36,37 @@ html { scroll-padding-top: 80px; }
 
 <div id="bio-en">
   <p>
-    I am currently a PhD candidate at École de technologie supérieure (ÉTS), Montréal. There, I am working on Deep Learning around Vision applications with Prof.
-    <a href="https://www.etsmtl.ca/en/research/professors/egranger">Éric Granger</a> and Prof.
+    I am currently a PhD candidate at École de technologie supérieure (ÉTS), Montreal. There, I am working on deep learning in vision applications with Prof.
+    <a href="https://www.etsmtl.ca/en/research/professors/egranger">Eric Granger</a> and Prof.
     <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
-    My focus is on adapting and optimizing generative models. I particularly build solution for customized and efficient generation in multimodal and low-data settings.
+    My focus is on adapting and optimizing generative models. I particularly build solutions for customized and efficient generation in multimodal and low-data settings.
   </p>
 
   <p>
     Previously, I obtained a Masters degree in Artificial Intelligence (AI) at the
-    <a href="https://ut.ac.ir/en">University of Tehran</a> in Iran. There I worked as a research assistant in the Machine Learning (ML) Lab under the supervision of
-    <a href="https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate">Dr. Amin Sadeghi</a>
+    <a href="https://ut.ac.ir/en">University of Tehran</a>. There I worked as a research assistant in the Machine Learning (ML) Lab under the supervision of Prof.
+    <a href="https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate">Amin Sadeghi</a>
     on foundational Deep Learning (DL) and explainability in vision applications. My Master's thesis was titled
     “When and where to perform regularization in the training of deep learning models?”. I obtained my Bachelor's degree from the
     <a href="http://english.iut.ac.ir/">Isfahan University of Technology</a> where I studied Computer Engineering.
   </p>
 </div>
 
-<div id="bio-fr" style="display:none;">
+<div id="bio-fr">
   <p>
-    <!-- Replace this with your French bio -->
-    Je suis actuellement doctorante à l’École de technologie supérieure (ÉTS), à Montréal...
+    Je suis actuellement doctorante à l’École de technologie supérieure (ÉTS), à Montréal. J’y travaille sur l’Apprentissage profond appliqué à la vision, sous la direction du Prof.
+    <a href="https://www.etsmtl.ca/en/research/professors/egranger">Éric Granger</a> et du Prof.
+    <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
+    Mes travaux portent sur l’adaptation et l’optimisation des modèles génératifs. Je développe notamment des solutions pour une génération personnalisée et efficace dans des contextes multimodaux et à faibles données.
+  </p>
+
+  <p>
+    Auparavant, j’ai obtenu un master en intelligence artificielle (IA) à l’
+    <a href="https://ut.ac.ir/en">Université de Téhéran</a>. J’y ai travaillé comme assistante de recherche au laboratoire d’apprentissage automatique, sous la supervision du Prof.
+    <a href="https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate">Amin Sadeghi</a>,
+    sur les fondements de l’apprentissage profond et l’explicabilité en vision. Mon mémoire de master s’intitulait :
+    « Quand et où appliquer la régularisation lors de l’entraînement de modèles d’apprentissage profond ? ». J’ai obtenu mon baccalauréat à l’
+    <a href="http://english.iut.ac.ir/">Université de Technologie d’Ispahan</a>, où j’ai étudié le génie informatique.
   </p>
 </div>
 
