@@ -8,23 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-/* keep the top header visible while scrolling */
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-  background: white; /* prevents content showing through */
-}
-
-/* so /#publications etc doesn't land *under* the sticky header */
-html {
-  scroll-padding-top: 80px; /* adjust if your header is taller/shorter */
-}
+.masthead { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: white; }
+.initial-content { padding-top: 80px; }  /* same value as scroll-padding-top */
+html { scroll-padding-top: 80px; }
 
 
 <style>body {text-align: justify}</style>
-
-<h3 id="publications">Bio</h3>
 
 I am currently a PhD candidate at École de technologie supérieure (ÉTS), Montréal. There, I am working on Deep Learning around Vision applications with Prof. [Éric Granger](https://www.etsmtl.ca/en/research/professors/egranger) and Prof. [Mohammadhadi Shateri](https://www.etsmtl.ca/en/research/professors/mshateri). My focus is on adapting and optimizing generative models. I particularly build solution for customized and efficient generation in multimodal and low-data settings.
 
