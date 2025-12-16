@@ -8,6 +8,20 @@ redirect_from:
   - /about.html
 ---
 
+/* keep the top header visible while scrolling */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: white; /* prevents content showing through */
+}
+
+/* so /#publications etc doesn't land *under* the sticky header */
+html {
+  scroll-padding-top: 80px; /* adjust if your header is taller/shorter */
+}
+
+
 <style>body {text-align: justify}</style>
 
 <h3 id="publications">Bio</h3>
