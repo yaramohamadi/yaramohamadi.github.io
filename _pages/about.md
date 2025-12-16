@@ -10,19 +10,19 @@ redirect_from:
 
 <style>body {text-align: justify}</style>
 
-### Bio
+<h3 id="publications">Bio</h3>
 
 I am currently a PhD candidate at École de technologie supérieure (ÉTS), Montréal. There, I am working on Deep Learning around Vision applications with Prof. [Éric Granger](https://www.etsmtl.ca/en/research/professors/egranger) and Prof. [Mohammadhadi Shateri](https://www.etsmtl.ca/en/research/professors/mshateri). My focus is on adapting and optimizing generative models. I particularly build solution for customized and efficient generation in multimodal and low-data settings.
 
 Previously, I obtained a Masters degree in Artificial Intelligence (AI) at the [University of Tehran](https://ut.ac.ir/en) in Iran. There I worked as a research assistant in the Machine Learning (ML) Lab under the supervision of [Dr. Amin Sadeghi](https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate) on foundational Deep Learning (DL) and explainability in vision applications. My Master's thesis was titled "When and where to perform regularization in the training of deep learning models?". I obtained my Bachelor's degree from the [Isfahan University of Technology](http://english.iut.ac.ir/) where I studied Computer Engineering. 
 
 --------------
-
+<h3 id="cv">CV</h3>
 Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 22 February 2024)
 
 --------------
 
-### Publications {: #publications}
+<h3 id="publications">Publications</h3>
 
 
 <style>
@@ -109,8 +109,8 @@ Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 2
 
 --------------
 
-### Teaching {: #teaching}
 
+<h3 id="teaching">Teaching</h3>
 
 
 #### Teaching Assistant for Graduate University Courses
@@ -155,7 +155,8 @@ Created over 2 hours of tutorials on Machine Learning with Python in Persian lan
 
 --------------
 
-### Projects (Last update 2024) {: #projects}
+<h3 id="projects">Projects</h3>
+Last update 2024 
 
 #### Deep Learning and Machine Learning
 All projects on Github [here](https://github.com/yaramohamadi/Deep_Learning_Projects).
@@ -224,7 +225,8 @@ Multi-Modality, Generative Modeling, and more.
 --------------]
 -->
 
-### For Fun:
+
+<h3 id="forfun">For Fun</h3>
 
 <p align="left">
   <a href="https://open.spotify.com/user/yara.mohamadi" target="blank"><img align="center" 
