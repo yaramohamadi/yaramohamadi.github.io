@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yara m. Bahram"
+title                    : "Yara M. Bahram"
 title_separator          : "-"
-name                     : &name "Yara m. Bahram"
+name                     : &name "Yara M. Bahram"
 description              : &description "personal description"
 url                      : https://yaramohamadi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yara m. Bahram"
   avatar           : "profile.png"
-  bio              : "Artificial Intelligence Master's Student, University of Tehran"
-  location         : "Tehran, Iran"
+  bio              : "PhD Candidate in Deep Learning, Ecole Supérieure de Technologie ETS"
+  location         : "Montreal, Canada"
   employer         :
   pubmed           : 
-  googlescholar    : 
-  email            :  "yara.mohamadi@gmail.com"
+  googlescholar    : "https://scholar.google.ca/citations?view_op=list_works&hl=en&hl=en&user=_etyGRcAAAAJ"
+  email            :  "yara.mohammadi-bahram@livia.etsmtl.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
