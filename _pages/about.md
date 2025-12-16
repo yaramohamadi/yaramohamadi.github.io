@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
   /* Keep the header visible while scrolling */
-  .masthead { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: white; }
+  .masthead { position: sticky; top: 0; left: 0; right: 0; z-index: 9999; background: white; }
   .initial-content { padding-top: 80px; }  /* adjust if needed */
   html { scroll-padding-top: 80px; }       /* so anchors aren’t hidden under header */
 
@@ -93,7 +93,7 @@ redirect_from:
 
 --------------
 <h3 id="cv">CV</h3>
-Download my full CV [here](../files/CV_without_paper_links.pdf). (Last update: 22 February 2024)
+Download my full CV [here](../files/CV_Yara_Bahram_10dec2025.pdf). (Last update: 10 Dec 2025)
 
 --------------
 
