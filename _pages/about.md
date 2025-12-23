@@ -54,7 +54,7 @@ redirect_from:
 
 <div id="bio-fr">
   <p>
-    Je suis actuellement doctorante à l’École de technologie supérieure (ÉTS), à Montréal. J’y travaille sur l’Apprentissage profond appliqué à la vision, sous la direction du Prof.
+    Je suis actuellement doctorant à l’École de technologie supérieure (ÉTS), à Montréal. J’y travaille sur l’Apprentissage profond appliqué à la vision, sous la direction du Prof.
     <a href="https://www.etsmtl.ca/en/research/professors/egranger">Éric Granger</a> et du Prof.
     <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
     Mes travaux portent sur l’adaptation et l’optimisation des modèles génératifs. Je développe notamment des solutions pour une génération personnalisée et efficace dans des contextes multimodaux et à faibles données.
@@ -62,7 +62,7 @@ redirect_from:
 
   <p>
     Auparavant, j’ai obtenu un master en intelligence artificielle (IA) à l’
-    <a href="https://ut.ac.ir/en">Université de Téhéran</a>. J’y ai travaillé comme assistante de recherche au laboratoire d’apprentissage automatique, sous la supervision du Prof.
+    <a href="https://ut.ac.ir/en">Université de Téhéran</a>. J’y ai travaillé comme assistant de recherche au laboratoire d’apprentissage automatique, sous la supervision du Prof.
     <a href="https://scholar.google.com/citations?hl=en&user=Viogmi8AAAAJ&view_op=list_works&sortby=pubdate">Amin Sadeghi</a>,
     sur les fondements de l’apprentissage profond et l’explicabilité en vision. Mon mémoire de master s’intitulait :
     « Quand et où appliquer la régularisation lors de l’entraînement de modèles d’apprentissage profond ? ». J’ai obtenu mon baccalauréat à l’
