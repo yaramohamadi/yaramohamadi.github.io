@@ -93,7 +93,7 @@ redirect_from:
 
 --------------
 <h3 id="cv">CV</h3>
-Download my full CV [here](../files/CV_Yara_Bahram_10dec2025.pdf). (Last update: 10 Dec 2025)
+Download my full CV [here](../files/CV_Yara_Bahram_10dec2025.pdf). (Last update: 16 April 2026)
 
 --------------
 
@@ -119,7 +119,7 @@ Download my full CV [here](../files/CV_Yara_Bahram_10dec2025.pdf). (Last update:
     <div class="pub-meta">
       <div class="pub-title">Uni-DAD: Unified Distillation and Adaptation of Diffusion Models for Few-step Few-shot Image Generation</div>
       <div class="pub-line">Y Bahram, M Desbos, M Shateri, E Granger</div>
-      <div class="pub-line"><em>Under Review</em></div>
+      <div class="pub-line"><em>CVPR 2026</em></div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2511.18281" target="_blank" rel="noopener">arXiv</a>
       </div>
@@ -213,8 +213,10 @@ _University of Tehran, School of Electrical and Computer Engineering, 2022-07_
 
 Group collaboration with 7 other mentors for educating 80 students during 14 data science workshops. ([LinkedIn](https://www.linkedin.com/company/ut-openai-summerschool/), [Github](https://github.com/HooshBaaz/2022_DataAnalytics_SummerSchool))
 
-<img src="../files/hooshbaaz.png" width="100%"/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qPlnH-qpHmo?si=B4_4AyphB02F7Za4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7056251687300165632" target="_blank">
+  <img src="../files/hooshbaaz.png" width="100%"/>
+  ▶ Watch video on LinkedIn
+</a>
 
 -----------------
 
