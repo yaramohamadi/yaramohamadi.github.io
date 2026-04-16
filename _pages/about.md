@@ -93,7 +93,7 @@ redirect_from:
 
 --------------
 <h3 id="cv">CV</h3>
-Download my full CV [here](../files/CV_Yara_Bahram_10dec2025.pdf). (Last update: 16 April 2026)
+Download my full CV [here](../files/CV_Yara_Bahram.pdf). (Last update: 16 April 2026)
 
 --------------
 
