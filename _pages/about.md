@@ -118,7 +118,7 @@ Download my full CV [here](../files/CV_Yara_Bahram.pdf). (Last update: 16 April 
     <img class="pub-thumb" src="https://github.com/user-attachments/assets/2e499728-c7a6-4ecc-b2a0-2f34c72a0baf" alt="Uni-DAD thumbnail"/>
     <div class="pub-meta">
       <div class="pub-title">Uni-DAD: Unified Distillation and Adaptation of Diffusion Models for Few-step Few-shot Image Generation</div>
-      <div class="pub-line">Y Bahram*, M Desbos*, M Shateri, E Granger</div>
+      <div class="pub-line">Y Bahram\*, M Desbos\*, M Shateri, E Granger</div>
       <div class="pub-line"><em>CVPR 2026</em></div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2511.18281" target="_blank" rel="noopener">arXiv</a>
