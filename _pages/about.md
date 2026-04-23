@@ -229,6 +229,8 @@ Created over 2 hours of tutorials on Machine Learning with Python in Persian lan
 
 
 
+<!--
+--------------
 
 --------------
 
@@ -286,7 +288,8 @@ All projects on Github [here](https://github.com/yaramohamadi/BigData_Projects).
 - Crawling static and interactive Iranian webpages
 - Spotify data gathering + data analysis + Recommender system
 
-
+--------------]
+-->
 
 
 <!--
