@@ -143,7 +143,7 @@ summary:focus-visible {
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(9rem, 26vw, 14rem);
+  grid-template-columns: minmax(0, 1fr) clamp(4.5rem, 13vw, 7rem);
   gap: clamp(1.5rem, 4vw, 2.75rem);
   align-items: start;
 }
@@ -501,7 +501,7 @@ footer p { margin: 0; }
   .intro { grid-template-columns: 1fr; gap: 1.4rem; }
 
   /* portrait above the name, and not full-bleed */
-  .avatar { order: -1; width: clamp(8rem, 48vw, 12rem); }
+  .avatar { order: -1; width: clamp(4.5rem, 24vw, 7rem); }
 
   /* the row wraps here, which left a "/" dangling at the end of a line */
   .links { column-gap: 1.1rem; }
