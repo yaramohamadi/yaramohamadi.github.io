@@ -134,7 +134,7 @@
 
     <!-- ------------------------------------------------------- publications -->
     <section id="publications" style="--marker: var(--brick)">
-      <h2>Publications</h2>
+      <h2>Selected publications</h2>
 
       <article class="pub">
         <a class="pub-fig" href="https://yasaman-dt.github.io/CAMFT/" aria-label="CAMFT project page">
@@ -223,98 +223,6 @@
             <a href="https://github.com/yaramohamadi/DogFit">Code</a>
             <a href="https://www.youtube.com/watch?v=N5TexhceXbY">Video</a>
           </div>
-        </div>
-      </article>
-
-      <article class="pub">
-        <span class="pub-fig">
-          <img src="assets/img/papers/postreg.png" width="927" height="710" loading="lazy"
-               alt="Post-regularization taxonomy figure.">
-        </span>
-        <div class="pub-body">
-          <h3 class="pub-title">Overfitting is not a dead-end: A survey and outlook on
-            post-training regularization</h3>
-          <p class="pub-authors">
-            <span class="me">YM Bahram</span>, MA Sadeghi
-          </p>
-          <div class="pub-meta">
-            <span class="badge draft">Draft abstract, 2023</span>
-          </div>
-          <details class="abs">
-            <summary>Abstract</summary>
-            <div>
-              Machine learning (ML) relies heavily on regularization, as it allows better
-              generalization to unknown data, even with imperfect optimization procedures and
-              datasets. There are, however, major problems with regularization that have
-              surprisingly received little attention so far. Regularization methods traditionally
-              <strong>avoid</strong> overfitting. But when overfitting happens, they usually fail
-              to fight it and cannot bring the machine learning model out of its adverse
-              situation. As a result, the stage of overfitting is thought of as a dead-end in the
-              ML community. This idea has consequently forced the system designers to perform
-              expensive hyperparameter searches, retraining the model from scratch every time
-              with new configurations. It has also led to similar complications in the
-              ever-changing dynamic usages of static pre-trained models. Defying the overfitting
-              dead-end misconception, we argue that even a model that is overfitting includes
-              useful information about the task at hand, and being able to adjust the
-              regularization strength by using this information after the overfitting further
-              solidifies this suggestion. This process ideally requires the disentanglement of
-              the regularization process from the initial stages of the training phase and being
-              able to apply the regularization as a post-processing step with low cost. This
-              would allow adjusting the regularization strength of pre-trained models
-              efficiently, which is an increasingly viable concept given the prevalent use of
-              large neural networks today in many domains and applications. There already are
-              implicit and explicit traces of this idea, which we call <em>Post-Regularization</em>,
-              in a wide range of existing works from several domains. However, there exists no
-              unified view of this concept. In this work, we formalize <em>Post-Regularization</em>,
-              and provide a novel taxonomy of regularization, from the perspective of
-              <strong>when</strong> the regularization is applied with respect to the model
-              training to help bring together the ideas that can potentially be further explored
-              in this area. We hope that this work attracts more attention to
-              <em>Post-Regularization</em> and provides a foundation for future related work.
-            </div>
-          </details>
-        </div>
-      </article>
-
-      <article class="pub">
-        <span class="pub-fig">
-          <img src="assets/img/papers/fairness.png" width="559" height="555" loading="lazy"
-               alt="Fairness auditing via counterfactual explanations figure.">
-        </span>
-        <div class="pub-body">
-          <h3 class="pub-title">Fairness auditing through the lens of Counterfactual
-            Explanations</h3>
-          <p class="pub-authors">
-            Y Deldjoo, M Varasteh, <span class="me">YM Bahram</span>, N Tintarev
-          </p>
-          <div class="pub-meta">
-            <span class="badge draft">Draft manuscript, 2022</span>
-          </div>
-          <details class="abs">
-            <summary>Abstract</summary>
-            <div>
-              A wide variety of fairness metrics and eXplainable Artificial Intelligence (XAI)
-              approaches have been proposed in the literature to identify bias in machine
-              learning (ML) models that are used in critical real-life contexts. In this paper,
-              we present an approach that ties the evaluation of the fairness of machine learning
-              models to the <em>expense</em> (or conversely the simplicity) of generating
-              counterfactual explanations (CFE). Considering the relative importance of each
-              feature class towards obtaining the desired outcome, we attribute different scores
-              to each feature value and propose model-agnostic concepts of Qualification and
-              Effort, respectively, indicating the candidate's strength and the adjustments that
-              must be made to the candidate's profile in order to alter the classifier's output.
-              To ensure a fair comparison, we further group candidates based on their
-              Qualification scores. We additionally utilize KL-divergence to capture the complex
-              disparities between distributions of the CFE Efforts among the sensitive groups. We
-              empirically evaluate fairness among different sensitive classes for several
-              classifiers on two real-world datasets. We find that the majority of classifiers
-              exhibit unfair propensities towards the minority groups. However, some models
-              exacerbate the bias more than others. Also, we find that classifiers tend to behave
-              differently for members of each Qualification group. Our results show that our
-              method can successfully be used for fairness evaluation of classification models
-              based on CFEs.
-            </div>
-          </details>
         </div>
       </article>
     </section>

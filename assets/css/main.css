@@ -388,44 +388,6 @@ h2::after {
   font-size: 0.75rem;
 }
 
-/* abstract disclosure */
-
-.abs {
-  margin-top: 0.75rem;
-  font-size: 0.8125rem;
-}
-
-.abs summary {
-  cursor: pointer;
-  color: var(--fg-muted);
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  list-style: none;
-  width: fit-content;
-}
-
-.abs summary::-webkit-details-marker { display: none; }
-
-.abs summary::before {
-  content: "+ ";
-  color: var(--accent);
-  font-weight: 700;
-}
-
-.abs[open] summary::before { content: "\2013 "; }
-
-.abs summary:hover { color: var(--fg); }
-
-.abs > div {
-  margin-top: 0.75rem;
-  padding-left: 0.85rem;
-  border-left: 2px solid var(--line);
-  color: var(--fg-muted);
-  line-height: 1.8;
-  text-align: justify;
-  hyphens: auto;
-}
-
 /* ---------- teaching ---------- */
 
 .entry { padding-bottom: 1.25rem; }
@@ -543,8 +505,7 @@ footer p { margin: 0; }
      it opens gaps you can read down the page, so go back to a ragged edge */
   .bio-body p,
   .pub-title,
-  .entry .detail,
-  .abs > div { text-align: left; hyphens: manual; }
+  .entry .detail { text-align: left; hyphens: manual; }
 }
 
 /* ---------- preferences ---------- */

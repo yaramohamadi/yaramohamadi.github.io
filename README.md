@@ -22,7 +22,8 @@ re-declares the same hues at higher lightness so they stay legible on a dark gro
 
 Adding a paper: drop the figure in `assets/img/papers/`, then copy an existing
 `<article class="pub">` block in `index.html` and edit it. Use `<span class="badge">` for a
-published venue and `<span class="badge draft">` for anything unpublished.
+published venue and `<span class="badge draft">` for anything unpublished. The list is
+deliberately a selection, not a complete record — Scholar is the complete record.
 
 ## Preview
 
