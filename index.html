@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Yara M. Bahram</title>
-<meta name="description" content="PhD candidate at ÉTS Montréal and research intern at Electronic Arts. Efficient transfer and distillation of diffusion and flow models, and world models.">
+<meta name="description" content="PhD candidate at ÉTS Montréal and research intern at Electronic Arts. Efficient transfer and distillation of diffusion and flow models, and interactive world models.">
 <meta name="author" content="Yara M. Bahram">
 <link rel="canonical" href="https://yaramohamadi.github.io/">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Yara M. Bahram">
-<meta property="og:description" content="PhD candidate at ÉTS Montréal and research intern at Electronic Arts. Generative models, and world models.">
+<meta property="og:description" content="PhD candidate at ÉTS Montréal and research intern at Electronic Arts. Generative models, and interactive world models.">
 <meta property="og:url" content="https://yaramohamadi.github.io/">
 <meta property="og:image" content="https://yaramohamadi.github.io/assets/img/profile.png">
 <meta name="twitter:card" content="summary">
@@ -57,11 +57,16 @@
   <main id="main">
 
   <div class="intro">
+    <!-- ahead of the text so the float shortens the lines from the name down -->
+    <img class="avatar" src="assets/img/profile.png" width="640" height="640"
+         alt="Yara M. Bahram" fetchpriority="high">
+
     <div class="intro-text">
       <h1>Yara M. Bahram</h1>
       <p class="role">
         PhD Candidate,
-        <a href="https://liviamtl.ca/">LIVIA</a> ·
+        <a href="https://liviamtl.ca/">LIVIA</a>,
+        <a href="https://www.centralesupelec.fr/ills">ILLS</a> ·
         <a href="https://www.etsmtl.ca/en/">École de technologie supérieure</a><br>
         Montréal, Canada
       </p>
@@ -85,19 +90,17 @@
 
       <div class="bio-body" id="bio-en" role="tabpanel" lang="en">
         <p>
+          I am interested in generative models and how to adapt them cheaply to customized use
+          cases: efficient transfer and distillation of diffusion and flow models, customized
+          generation in multimodal and low-data settings.
+        </p>
+        <p>
           I am a PhD candidate at <a href="https://www.etsmtl.ca/en/">École de technologie
           supérieure</a> in Montréal, working on deep learning for vision with Prof.
           <a href="https://www.etsmtl.ca/en/research/professors/egranger">Eric Granger</a> and Prof.
-          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
-        </p>
-        <p>
-          I am interested in generative models and how to adapt them cheaply: efficient transfer
-          and distillation of diffusion and flow models, customized generation in multimodal and
-          low-data settings, and <strong>world models</strong>.
-        </p>
-        <p>
-          I am currently also a research intern at <a href="https://www.ea.com/">Electronic
-          Arts</a>, working on world models for games.
+          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>,
+          and I am currently also a research intern at <a href="https://www.ea.com/">Electronic
+          Arts</a>, working on <strong>interactive world models</strong> for games.
         </p>
         <p>
           Before that, I obtained my Master's in Artificial Intelligence at the
@@ -109,21 +112,20 @@
 
       <div class="bio-body" id="bio-fr" role="tabpanel" lang="fr" hidden>
         <p>
+          Je m'intéresse aux modèles génératifs et à la manière de les adapter à faible coût à des
+          cas d'usage personnalisés : transfert et distillation efficaces des modèles de diffusion
+          et de flot, génération personnalisée dans des contextes multimodaux et à faibles
+          données.
+        </p>
+        <p>
           Je suis doctorant à l'<a href="https://www.etsmtl.ca/">École de technologie
           supérieure</a>, à Montréal, où je travaille sur l'apprentissage profond appliqué à la
           vision avec les professeurs
           <a href="https://www.etsmtl.ca/en/research/professors/egranger">Éric Granger</a> et
-          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
-        </p>
-        <p>
-          Je m'intéresse aux modèles génératifs et à la manière de les adapter à faible coût :
-          transfert et distillation efficaces des modèles de diffusion et de flot, génération
-          personnalisée dans des contextes multimodaux et à faibles données, et les
-          <strong>modèles du monde</strong>.
-        </p>
-        <p>
-          Je suis actuellement aussi stagiaire de recherche chez <a href="https://www.ea.com/">Electronic
-          Arts</a>, où je travaille sur les modèles du monde appliqués aux jeux vidéo.
+          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>,
+          et je suis actuellement aussi stagiaire de recherche chez <a href="https://www.ea.com/">Electronic
+          Arts</a>, où je travaille sur les <strong>modèles du monde interactifs</strong> appliqués
+          aux jeux vidéo.
         </p>
         <p>
           Auparavant, j'ai obtenu une maîtrise en intelligence artificielle à l'<a href="https://ut.ac.ir/en">Université
@@ -132,9 +134,6 @@
         </p>
       </div>
     </div>
-
-    <img class="avatar" src="assets/img/profile.png" width="640" height="640"
-         alt="Yara M. Bahram" fetchpriority="high">
   </div>
 
     <!-- ------------------------------------------------------- publications -->
@@ -151,8 +150,9 @@
             <a href="https://arxiv.org/abs/2608.19540">Continuous Adversarial MeanFlow Transfer</a>
           </h3>
           <p class="pub-authors">
-            <span class="me">Y Bahram</span>, Z Dehghani, M Desbos, E Granger, P Piantanida,
+            <span class="me">Y Bahram</span>*, Z Dehghani*, M Desbos, E Granger, P Piantanida,
             M Shateri
+            <span class="eq">* equal contribution</span>
           </p>
           <div class="pub-meta">
             <span class="badge draft">Under review, 2026</span>
@@ -197,6 +197,7 @@
           </h3>
           <p class="pub-authors">
             <span class="me">Y Bahram</span>*, M Desbos*, M Shateri, E Granger
+            <span class="eq">* equal contribution</span>
           </p>
           <div class="pub-meta">
             <span class="badge">CVPR 2026</span>

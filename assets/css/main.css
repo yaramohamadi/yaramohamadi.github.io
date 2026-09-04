@@ -138,14 +138,14 @@ summary:focus-visible {
 }
 
 /* ---------- intro ----------
-   Name, links and bio share the left column so the portrait sits alongside
-   them. Keeping the bio out of this grid left a tall void under the photo. */
+   The portrait floats rather than taking a grid column: the name and links sit
+   beside it and the bio keeps flowing underneath it at full width. As a column
+   it stole that width from every paragraph, not just the ones next to it. */
 
-.intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(4.5rem, 13vw, 7rem);
-  gap: clamp(1.5rem, 4vw, 2.75rem);
-  align-items: start;
+.intro::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .intro-text { min-width: 0; }
@@ -169,7 +169,9 @@ h1 {
 .role a:hover { color: var(--accent); }
 
 .avatar {
-  width: 100%;
+  float: right;
+  width: clamp(9rem, 34vw, 21rem);
+  margin: 0.25rem 0 1.25rem clamp(1.25rem, 4vw, 2.25rem);
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 3px;
@@ -182,7 +184,7 @@ h1 {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0;
+  gap: 0.35rem 0.6em;
   margin-top: 1.75rem;
   font-size: 0.8125rem;
 }
@@ -195,13 +197,15 @@ h1 {
 
 .links a:hover { color: var(--accent); background: none; }
 
-.links li:not(:last-child)::after {
+/* the separator leads its own link rather than trailing the previous one, so a
+   wrap can never leave a "/" stranded at the end of a line */
+.links li:not(:first-child)::before {
   content: "/";
   color: var(--line);
-  margin: 0 0.6em;
+  margin-right: 0.6em;
 }
 
-.links li { display: inline-flex; align-items: center; }
+.links li { display: inline-flex; align-items: center; white-space: nowrap; }
 
 /* ---------- sections ---------- */
 
@@ -331,6 +335,14 @@ h2::after {
 }
 
 .pub-authors .me { color: var(--fg); font-weight: 700; }
+
+/* spells out what the asterisks in the author list mean */
+.pub-authors .eq {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.6875rem;
+  font-style: italic;
+}
 
 .badge {
   display: inline-block;
@@ -498,14 +510,12 @@ footer p { margin: 0; }
 /* ---------- narrow screens ---------- */
 
 @media (max-width: 34rem) {
-  .intro { grid-template-columns: 1fr; gap: 1.4rem; }
-
-  /* portrait above the name, and not full-bleed */
-  .avatar { order: -1; width: clamp(4.5rem, 24vw, 7rem); }
-
-  /* the row wraps here, which left a "/" dangling at the end of a line */
-  .links { column-gap: 1.1rem; }
-  .links li:not(:last-child)::after { content: none; margin: 0; }
+  /* too little width left to wrap text beside it — stack instead */
+  .avatar {
+    float: none;
+    width: clamp(8rem, 44vw, 12rem);
+    margin: 0 0 1.4rem;
+  }
 
   .pub {
     grid-template-columns: 1fr;
