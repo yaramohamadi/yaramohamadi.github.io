@@ -158,10 +158,12 @@ h1 {
   letter-spacing: -0.045em;
 }
 
+/* 12px rather than 13px: it is what keeps the affiliation on one line beside
+   the portrait, and every 1px here buys ~18px of portrait width */
 .role {
   margin: 0;
   color: var(--fg-muted);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   line-height: 1.6;
 }
 
@@ -170,8 +172,10 @@ h1 {
 
 .avatar {
   float: right;
-  width: clamp(9rem, 34vw, 21rem);
-  margin: 0.25rem 0 1.25rem clamp(1.25rem, 4vw, 2.25rem);
+  /* sized so the affiliation and link rows still fit on one line to its left,
+     and so it is tall enough for the opening paragraph to sit beside it */
+  width: clamp(9rem, 26vw, 16rem);
+  margin: 0.25rem 0 1.25rem clamp(1rem, 3vw, 1.5rem);
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 3px;
@@ -272,6 +276,10 @@ h2::after {
 }
 
 .bio-body[hidden] { display: none; }
+
+/* only the opening paragraph sits beside the portrait; the rest drops clear of
+   it so they run the full width instead of threading past its bottom corner */
+.bio-body p + p { clear: right; }
 
 /* ---------- publications ---------- */
 
