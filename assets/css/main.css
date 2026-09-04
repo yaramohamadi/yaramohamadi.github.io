@@ -281,6 +281,8 @@ h2::after {
    it so they run the full width instead of threading past its bottom corner */
 .bio-body p + p { clear: right; }
 
+.bio-body p { text-align: justify; hyphens: auto; }
+
 /* ---------- publications ---------- */
 
 .pub {
@@ -331,6 +333,8 @@ h2::after {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.02em;
+  /* no hyphens here — breaking a paper title mid-word reads as a typo */
+  text-align: justify;
 }
 
 .pub-title a { color: var(--fg); border-bottom: none; }
@@ -451,6 +455,8 @@ h2::after {
   margin: 0.5rem 0 0;
   font-size: 0.8125rem;
   color: var(--fg-muted);
+  text-align: justify;
+  hyphens: auto;
 }
 
 .courses {
@@ -533,7 +539,12 @@ footer p { margin: 0; }
   /* full-width figures have room for more height before the cap bites */
   .pub-fig img { max-height: 24rem; }
 
-  .abs > div { text-align: left; }
+  /* too few words per line here for justification to spread the slack evenly —
+     it opens gaps you can read down the page, so go back to a ragged edge */
+  .bio-body p,
+  .pub-title,
+  .entry .detail,
+  .abs > div { text-align: left; hyphens: manual; }
 }
 
 /* ---------- preferences ---------- */
