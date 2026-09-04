@@ -6,7 +6,7 @@ Personal site for Yara M. Bahram — a single hand-written static page, no build
 index.html              everything: bio (EN/FR), publications, teaching
 assets/css/main.css     design tokens, light + dark themes
 assets/js/main.js       theme toggle, bio language switch
-assets/img/profile.png  portrait
+assets/img/profile.jpg  portrait
 assets/img/papers/      paper teaser figures
 files/                  CV
 .nojekyll               tells GitHub Pages to serve the files as-is
