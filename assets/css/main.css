@@ -1,6 +1,6 @@
 /* ==========================================================================
    Yara M. Bahram — personal site
-   Type:    Space Mono (Latin) + Noto Naskh Arabic (Kurdish / Sorani)
+   Type:    Space Mono
    Palette: AA453C brick · 886655 brown · 585639 olive · 5A5A5A grey · F8C600 yellow
    ========================================================================== */
 
@@ -35,7 +35,7 @@
   --figure-bg:     #FFFFFF;
   --figure-adjust: none;
 
-  --measure: 46rem;
+  --measure: 49rem;
   --step:    clamp(2.75rem, 6vw, 4rem); /* vertical rhythm between sections */
 }
 
@@ -137,16 +137,18 @@ summary:focus-visible {
   border: 1px solid var(--accent);
 }
 
-/* ---------- hero ---------- */
+/* ---------- intro ----------
+   Name, links and bio share the left column so the portrait sits alongside
+   them. Keeping the bio out of this grid left a tall void under the photo. */
 
-.hero {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: clamp(1.25rem, 4vw, 2.5rem);
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(9rem, 26vw, 14rem);
+  gap: clamp(1.5rem, 4vw, 2.75rem);
+  align-items: start;
 }
 
-.hero-text { min-width: 0; }
+.intro-text { min-width: 0; }
 
 h1 {
   margin: 0 0 0.35rem;
@@ -167,8 +169,7 @@ h1 {
 .role a:hover { color: var(--accent); }
 
 .avatar {
-  flex: none;
-  width: clamp(5rem, 18vw, 8.25rem);
+  width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 3px;
@@ -204,8 +205,7 @@ h1 {
 
 /* ---------- sections ---------- */
 
-main { margin-top: var(--step); }
-
+.intro + section,
 section + section { margin-top: var(--step); }
 
 h2 {
@@ -240,7 +240,7 @@ h2::after {
 .langbar {
   display: flex;
   gap: 0.4rem;
-  margin-bottom: 1.25rem;
+  margin: 1.75rem 0 1.25rem;
 }
 
 .langbar button {
@@ -269,19 +269,11 @@ h2::after {
 
 .bio-body[hidden] { display: none; }
 
-.bio-body[dir="rtl"] {
-  font-family: "Noto Naskh Arabic", "Vazirmatn", "Geeza Pro", serif;
-  font-size: 1.0625em;
-  line-height: 2.05;
-  letter-spacing: 0;
-  text-align: right;
-}
-
 /* ---------- publications ---------- */
 
 .pub {
   display: grid;
-  grid-template-columns: 9.5rem minmax(0, 1fr);
+  grid-template-columns: 13rem minmax(0, 1fr);
   gap: 1.25rem;
   align-items: start;
   padding-bottom: 1.75rem;
@@ -295,9 +287,11 @@ h2::after {
 
 .pub:last-child { padding-bottom: 0; }
 
+/* an entry with no teaser figure gets the full width rather than a gap */
+.pub.no-fig { grid-template-columns: minmax(0, 1fr); }
+
 .pub-fig {
   border: 1px solid var(--line);
-  border-bottom-width: 1px;
   border-radius: 3px;
   background: var(--figure-bg);
   padding: 0.4rem;
@@ -309,9 +303,12 @@ h2::after {
   border-color: var(--accent);
 }
 
+/* figures keep their own aspect ratio — a fixed box letterboxed the wide ones
+   into a thin strip. Height is capped so a very tall figure cannot dominate. */
 .pub-fig img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: auto;
+  max-height: 15rem;
   object-fit: contain;
   filter: var(--figure-adjust);
 }
@@ -501,18 +498,22 @@ footer p { margin: 0; }
 /* ---------- narrow screens ---------- */
 
 @media (max-width: 34rem) {
-  .hero {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    gap: 1.1rem;
-  }
+  .intro { grid-template-columns: 1fr; gap: 1.4rem; }
+
+  /* portrait above the name, and not full-bleed */
+  .avatar { order: -1; width: clamp(8rem, 48vw, 12rem); }
+
+  /* the row wraps here, which left a "/" dangling at the end of a line */
+  .links { column-gap: 1.1rem; }
+  .links li:not(:last-child)::after { content: none; margin: 0; }
 
   .pub {
     grid-template-columns: 1fr;
     gap: 0.9rem;
   }
 
-  .pub-fig img { aspect-ratio: 16 / 9; }
+  /* full-width figures have room for more height before the cap bites */
+  .pub-fig img { max-height: 24rem; }
 
   .abs > div { text-align: left; }
 }

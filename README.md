@@ -3,7 +3,7 @@
 Personal site for Yara M. Bahram — a single hand-written static page, no build step.
 
 ```
-index.html              everything: bio (EN/FR/KU), publications, teaching
+index.html              everything: bio (EN/FR), publications, teaching
 assets/css/main.css     design tokens, light + dark themes
 assets/js/main.js       theme toggle, bio language switch
 assets/img/profile.png  portrait
@@ -12,7 +12,7 @@ files/                  CV
 .nojekyll               tells GitHub Pages to serve the files as-is
 ```
 
-**Type** — Space Mono (Latin) and Noto Naskh Arabic (Kurdish), both from Google Fonts.
+**Type** — Space Mono, from Google Fonts.
 
 **Palette** — `#AA453C` brick · `#886655` brown · `#585639` olive · `#5A5A5A` grey ·
 `#F8C600` yellow. Defined once as custom properties at the top of `main.css`; the dark theme
