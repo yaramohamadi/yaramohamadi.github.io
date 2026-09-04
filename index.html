@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Yara M. Bahram</title>
+<meta name="description" content="PhD candidate at ÉTS Montréal working on adapting and optimizing generative models for customized and efficient generation in multimodal and low-data settings.">
+<meta name="author" content="Yara M. Bahram">
+<link rel="canonical" href="https://yaramohamadi.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Yara M. Bahram">
+<meta property="og:description" content="PhD candidate at ÉTS Montréal working on adapting and optimizing generative models.">
+<meta property="og:url" content="https://yaramohamadi.github.io/">
+<meta property="og:image" content="https://yaramohamadi.github.io/assets/img/profile.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#FBF8F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140F" media="(prefers-color-scheme: dark)">
+
+<!-- set the theme before first paint so there is no flash of the wrong mode -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("theme");
+      var dark = saved
+        ? saved === "dark"
+        : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (dark) document.documentElement.setAttribute("data-theme", "dark");
+    } catch (e) {}
+  })();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Naskh+Arabic:wght@400;700&display=swap">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch colour theme">
+  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.5"/>
+    <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/>
+  </svg>
+  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+    <path d="M20.5 14.5A8.6 8.6 0 0 1 9.5 3.5a8.6 8.6 0 1 0 11 11z"/>
+  </svg>
+</button>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Yara M. Bahram</h1>
+      <p class="role">
+        PhD Candidate,
+        <a href="https://liviamtl.ca/">LIVIA</a> ·
+        <a href="https://www.etsmtl.ca/en/">École de technologie supérieure</a><br>
+        Montréal, Canada
+      </p>
+    </div>
+    <img class="avatar" src="assets/img/profile.png" width="640" height="640"
+         alt="Yara M. Bahram" fetchpriority="high">
+  </header>
+
+  <nav aria-label="Elsewhere">
+    <ul class="links">
+      <li><a href="mailto:yara.mohammadi-bahram@livia.etsmtl.com">Email</a></li>
+      <li><a href="files/CV_Yara_Bahram.pdf">CV</a></li>
+      <li><a href="https://scholar.google.ca/citations?user=_etyGRcAAAAJ&hl=en">Scholar</a></li>
+      <li><a href="https://github.com/yaramohamadi">GitHub</a></li>
+      <li><a href="https://twitter.com/BahramYara">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/yara-mohammadi-a850ab12a">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+
+    <!-- ---------------------------------------------------------------- bio -->
+    <section aria-label="About">
+      <div class="langbar" role="tablist" aria-label="Bio language">
+        <button type="button" role="tab" data-lang="en" aria-selected="true"  aria-controls="bio-en">EN</button>
+        <button type="button" role="tab" data-lang="fr" aria-selected="false" aria-controls="bio-fr">FR</button>
+        <button type="button" role="tab" data-lang="ku" aria-selected="false" aria-controls="bio-ku">KU</button>
+      </div>
+
+      <div class="bio-body" id="bio-en" role="tabpanel" lang="en">
+        <p>
+          I am a PhD candidate at <a href="https://www.etsmtl.ca/en/">École de technologie
+          supérieure</a> in Montréal, working on deep learning for vision with Prof.
+          <a href="https://www.etsmtl.ca/en/research/professors/egranger">Eric Granger</a> and Prof.
+          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
+          My focus is adapting and optimizing generative models — building solutions for
+          customized and efficient generation in multimodal and low-data settings.
+        </p>
+        <p>
+          Before that, I obtained my Master's in Artificial Intelligence at the
+          <a href="https://ut.ac.ir/en">University of Tehran</a> and my Bachelor's in Computer
+          Engineering at the <a href="http://english.iut.ac.ir/">Isfahan University of
+          Technology</a>.
+        </p>
+      </div>
+
+      <div class="bio-body" id="bio-fr" role="tabpanel" lang="fr" hidden>
+        <p>
+          Je suis doctorant à l'<a href="https://www.etsmtl.ca/">École de technologie
+          supérieure</a>, à Montréal, où je travaille sur l'apprentissage profond appliqué à la
+          vision avec les professeurs
+          <a href="https://www.etsmtl.ca/en/research/professors/egranger">Éric Granger</a> et
+          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">Mohammadhadi Shateri</a>.
+          Mes travaux portent sur l'adaptation et l'optimisation des modèles génératifs — des
+          solutions pour une génération personnalisée et efficace dans des contextes multimodaux
+          et à faibles données.
+        </p>
+        <p>
+          Auparavant, j'ai obtenu une maîtrise en intelligence artificielle à l'<a href="https://ut.ac.ir/en">Université
+          de Téhéran</a> et un baccalauréat en génie informatique à l'<a href="http://english.iut.ac.ir/">Université
+          de technologie d'Ispahan</a>.
+        </p>
+      </div>
+
+      <div class="bio-body" id="bio-ku" role="tabpanel" lang="ckb" dir="rtl" hidden>
+        <p>
+          من خوێندکاری دکتۆرام لە <a href="https://www.etsmtl.ca/">École de technologie supérieure</a>
+          لە مۆنترێال، و لەسەر فێرکاری قووڵ بۆ بینین کار دەکەم لەگەڵ پرۆفیسۆر
+          <a href="https://www.etsmtl.ca/en/research/professors/egranger">ئێریک گرانجێر</a> و پرۆفیسۆر
+          <a href="https://www.etsmtl.ca/en/research/professors/mshateri">موحەممەدهادی شاتری</a>.
+          سەرنجم لەسەر گونجاندن و باشترکردنی مۆدێلەکانی بەرهەمهێنەرە — دروستکردنی چارەسەر بۆ
+          بەرهەمهێنانی تایبەتمەندکراو و کارامە لە دۆخەکانی فرەمۆدال و کەم‌داتا.
+        </p>
+        <p>
+          پێشتر، بڕوانامەی ماستەرم لە زیرەکی دەستکرد لە <a href="https://ut.ac.ir/en">زانکۆی تەھران</a>
+          و بڕوانامەی بەکالۆریۆسم لە ئەندازیاری کۆمپیوتەر لە
+          <a href="http://english.iut.ac.ir/">زانکۆی تەکنەلۆژیای ئیسفەھان</a> بەدەستهێناوە.
+        </p>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------- publications -->
+    <section id="publications" style="--marker: var(--brick)">
+      <h2>Publications</h2>
+
+      <article class="pub">
+        <a class="pub-fig" href="https://arxiv.org/abs/2511.18281" aria-label="Uni-DAD figure">
+          <img src="assets/img/papers/unidad.png" width="916" height="842" loading="lazy"
+               alt="Uni-DAD teaser: distillation and adaptation applied jointly versus in sequence.">
+        </a>
+        <div class="pub-body">
+          <h3 class="pub-title">
+            <a href="https://arxiv.org/abs/2511.18281">Uni-DAD: Unified Distillation and Adaptation
+            of Diffusion Models for Few-step Few-shot Image Generation</a>
+          </h3>
+          <p class="pub-authors">
+            <span class="me">Y Bahram</span>*, M Desbos*, M Shateri, E Granger
+          </p>
+          <div class="pub-meta">
+            <span class="badge">CVPR 2026</span>
+            <a href="https://arxiv.org/abs/2511.18281">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <a class="pub-fig" href="https://arxiv.org/abs/2508.05685" aria-label="DogFit figure">
+          <img src="assets/img/papers/dogfit.png" width="503" height="509" loading="lazy"
+               alt="DogFit teaser: domain-guided fine-tuning of diffusion models.">
+        </a>
+        <div class="pub-body">
+          <h3 class="pub-title">
+            <a href="https://arxiv.org/abs/2508.05685">DogFit: Domain-guided Fine-tuning for
+            Efficient Transfer Learning of Diffusion Models</a>
+          </h3>
+          <p class="pub-authors">
+            <span class="me">Y Bahram</span>, M Shateri, E Granger
+          </p>
+          <div class="pub-meta">
+            <span class="badge">AAAI 2026</span>
+            <a href="https://arxiv.org/abs/2508.05685">arXiv</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pub">
+        <span class="pub-fig">
+          <img src="assets/img/papers/postreg.png" width="927" height="710" loading="lazy"
+               alt="Post-regularization taxonomy figure.">
+        </span>
+        <div class="pub-body">
+          <h3 class="pub-title">Overfitting is not a dead-end: A survey and outlook on
+            post-training regularization</h3>
+          <p class="pub-authors">
+            <span class="me">YM Bahram</span>, MA Sadeghi
+          </p>
+          <div class="pub-meta">
+            <span class="badge draft">Draft abstract, 2023</span>
+          </div>
+          <details class="abs">
+            <summary>Abstract</summary>
+            <div>
+              Machine learning (ML) relies heavily on regularization, as it allows better
+              generalization to unknown data, even with imperfect optimization procedures and
+              datasets. There are, however, major problems with regularization that have
+              surprisingly received little attention so far. Regularization methods traditionally
+              <strong>avoid</strong> overfitting. But when overfitting happens, they usually fail
+              to fight it and cannot bring the machine learning model out of its adverse
+              situation. As a result, the stage of overfitting is thought of as a dead-end in the
+              ML community. This idea has consequently forced the system designers to perform
+              expensive hyperparameter searches, retraining the model from scratch every time
+              with new configurations. It has also led to similar complications in the
+              ever-changing dynamic usages of static pre-trained models. Defying the overfitting
+              dead-end misconception, we argue that even a model that is overfitting includes
+              useful information about the task at hand, and being able to adjust the
+              regularization strength by using this information after the overfitting further
+              solidifies this suggestion. This process ideally requires the disentanglement of
+              the regularization process from the initial stages of the training phase and being
+              able to apply the regularization as a post-processing step with low cost. This
+              would allow adjusting the regularization strength of pre-trained models
+              efficiently, which is an increasingly viable concept given the prevalent use of
+              large neural networks today in many domains and applications. There already are
+              implicit and explicit traces of this idea, which we call <em>Post-Regularization</em>,
+              in a wide range of existing works from several domains. However, there exists no
+              unified view of this concept. In this work, we formalize <em>Post-Regularization</em>,
+              and provide a novel taxonomy of regularization, from the perspective of
+              <strong>when</strong> the regularization is applied with respect to the model
+              training to help bring together the ideas that can potentially be further explored
+              in this area. We hope that this work attracts more attention to
+              <em>Post-Regularization</em> and provides a foundation for future related work.
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="pub">
+        <span class="pub-fig">
+          <img src="assets/img/papers/fairness.png" width="559" height="555" loading="lazy"
+               alt="Fairness auditing via counterfactual explanations figure.">
+        </span>
+        <div class="pub-body">
+          <h3 class="pub-title">Fairness auditing through the lens of Counterfactual
+            Explanations</h3>
+          <p class="pub-authors">
+            Y Deldjoo, M Varasteh, <span class="me">YM Bahram</span>, N Tintarev
+          </p>
+          <div class="pub-meta">
+            <span class="badge draft">Draft manuscript, 2022</span>
+          </div>
+          <details class="abs">
+            <summary>Abstract</summary>
+            <div>
+              A wide variety of fairness metrics and eXplainable Artificial Intelligence (XAI)
+              approaches have been proposed in the literature to identify bias in machine
+              learning (ML) models that are used in critical real-life contexts. In this paper,
+              we present an approach that ties the evaluation of the fairness of machine learning
+              models to the <em>expense</em> (or conversely the simplicity) of generating
+              counterfactual explanations (CFE). Considering the relative importance of each
+              feature class towards obtaining the desired outcome, we attribute different scores
+              to each feature value and propose model-agnostic concepts of Qualification and
+              Effort, respectively, indicating the candidate's strength and the adjustments that
+              must be made to the candidate's profile in order to alter the classifier's output.
+              To ensure a fair comparison, we further group candidates based on their
+              Qualification scores. We additionally utilize KL-divergence to capture the complex
+              disparities between distributions of the CFE Efforts among the sensitive groups. We
+              empirically evaluate fairness among different sensitive classes for several
+              classifiers on two real-world datasets. We find that the majority of classifiers
+              exhibit unfair propensities towards the minority groups. However, some models
+              exacerbate the bias more than others. Also, we find that classifiers tend to behave
+              differently for members of each Qualification group. Our results show that our
+              method can successfully be used for fairness evaluation of classification models
+              based on CFEs.
+            </div>
+          </details>
+        </div>
+      </article>
+    </section>
+
+    <!-- ----------------------------------------------------------- teaching -->
+    <section id="teaching" style="--marker: var(--olive)">
+      <h2>Teaching</h2>
+
+      <div class="entry">
+        <h3>Graduate Teaching Assistant</h3>
+        <p class="where">University of Tehran, School of Electrical and Computer Engineering ·
+          2021–2023</p>
+        <ul class="courses">
+          <li>Deep Generative Models <span class="lead">Lead</span></li>
+          <li>Machine Learning</li>
+          <li>Advanced Deep Learning</li>
+          <li>Data Analytics &amp; Visualization <span class="lead">Lead</span></li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <h3>Teaching Assistant, <a href="https://deeplearning.neuromatch.io/tutorials/intro.html">Neuromatch
+          Academy Deep Learning Summer School</a></h3>
+        <p class="where">Online · 2022</p>
+        <p class="detail">Full-time supervision of 16 students from different countries, leading
+          two research group projects over three weeks.</p>
+      </div>
+
+      <div class="entry">
+        <h3>Mentor, HooshBaaz Data Analytics Summer Bootcamp</h3>
+        <p class="where">University of Tehran · 2022</p>
+        <p class="detail">Taught 80 students across 14 data science workshops alongside seven
+          other mentors.
+          <a href="https://github.com/HooshBaaz/2022_DataAnalytics_SummerSchool">Materials</a></p>
+      </div>
+
+      <div class="entry">
+        <h3>Machine Learning tutorials in Persian</h3>
+        <p class="where">Online · 2021</p>
+        <p class="detail">Over two hours of hands-on lectures covering classification,
+          regression and dimensionality reduction.
+          <a href="https://www.youtube.com/watch?v=qgw1zjj8fyc&list=PL2_W-QFuPimVkqWnFnSf-kOWtrGs1avpO">YouTube</a> ·
+          <a href="https://github.com/yaramohamadi/Machine_Learning_intro">Code</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Last updated September 2026 · Built by hand.</p>
+  </footer>
+
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
